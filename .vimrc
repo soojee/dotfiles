@@ -44,6 +44,10 @@ set diffopt=filler
 set diffopt+=horizontal
 set diffopt+=iwhite
 
+set confirm
+
+inoremap jk <ESC>
+
 " Plugins
 
 "NERDTree
